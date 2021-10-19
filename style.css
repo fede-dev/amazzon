@@ -134,6 +134,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 10px;
 }
 
 .flag-container {
@@ -194,4 +195,61 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*-navbar-secundario-*/
+
+.navbar-secundario {
+  display: flex;
+  height: 30px;
+  background-color: #131921;
+  position: relative;
+}
+
+.navbar-secundario * {
+  color: #fff;
+}
+
+.separacion {
+  display: flex;
+  width: 40%;
+}
+
+/*-todo hamburger manu-*/
+.todo-all-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-text {
+  font-size: 12px;
+}
+/*-links-*/
+
+.links-container {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links-container p {
+  font-size: 12px;
+}
+
+/*COVID txt*/
+
+.health-container {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+}
+
+.health-container p {
+  font-size: 12px;
 }
