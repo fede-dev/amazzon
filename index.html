@@ -1,123 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <title>Amazon</title>
-  </head>
 
-  <body>
-    <div class="navbar-container">
-      <div class="navbar-principal">
-        <div class="navbar-left">
-          <div class="navbar-logo">
-            <img
-              class="navbar-logo-img"
-              src="assets/logo.png"
-              alt="amazon-logo"
-            />
-          </div>
-          <div class="send-location-container">
-            <div class="place-location-icon">
-              <i class="material-icons place__icon">place</i>
-            </div>
-            <div class="send-location-info">
-              <div><p class="send-to-location-text">Envios a:</p></div>
-              <div><p class="send-to-country-text">Argentina</p></div>
-            </div>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>Amazon</title>
+</head>
+
+<body>
+  <div class="navbar-container">
+    <div class="navbar-principal">
+      <div class="navbar-left">
+        <div class="navbar-logo">
+          <img class="navbar-logo-img" src="assets/logo.png" alt="amazon-logo" />
         </div>
-
-        <div class="navbar-middle">
-          <div class="dropdown-all-container">
-            <span class="dropdown-all-text">All</span
-            ><i class="dropdown-all-icon material-icons arrow_drop_down"
-              >arrow_drop_down</i
-            >
+        <div class="send-location-container">
+          <div class="place-location-icon">
+            <i class="material-icons place__icon">place</i>
           </div>
-          <div class="input-search-container">
-            <input class="input-search" />
-          </div>
-          <div class="search-button-container">
-            <i class="material-icons search">search</i>
-          </div>
-        </div>
-
-        <div class="navbar-right">
-          <div class="flag-container">
-            <div class="flag-img-container">
-              <img class="flag-img" src="assets/flag.png" alt="country-flag" />
+          <div class="send-location-info">
+            <div>
+              <p class="send-to-location-text">Envios a:</p>
             </div>
-            <i class="dropdown-flag-icon material-icons arrow_drop_down"
-              >arrow_drop_down</i
-            >
-          </div>
-
-          <div class="sign-in-container">
-            <div class="text-sign-in">
-              <p class="sign-in-text-top">Hello, Sign In</p>
-              <p class="sign-in-text-botton">Account & Lists</p>
+            <div>
+              <p class="send-to-country-text">Argentina</p>
             </div>
-
-            <i class="dropdown-sign-in-icon material-icons arrow_drop_down"
-              >arrow_drop_down</i
-            >
-          </div>
-
-          <div class="history-container">
-            <p class="history-text-top">Return</p>
-            <p class="history-text-bottom">& Orders</p>
-          </div>
-
-          <div class="cart-container">
-            <i class="cart-icon material-icons shopping_cart"
-              >shopping_cart</i
-            >
-            <div class="cart-text-container"><p class="cart-text">Cart</p></div>
           </div>
         </div>
       </div>
 
-      <div class="navbar-secundario">
-       <div class="separacion">
-            <div class="todo-all-container">
-              <div class="hamburger-menu-container" >
-                  <i class="material-icons menu"
-                >menu</i>
-              </div>
-              <div class="todo-text-container"><p class="todo-text">Todo</p></div>
-            </div>
+      <div class="navbar-middle">
+        <div class="dropdown-all-container">
+          <span class="dropdown-all-text">All</span><i
+            class="dropdown-all-icon material-icons arrow_drop_down">arrow_drop_down</i>
+        </div>
+        <div class="input-search-container">
+          <input class="input-search" />
+        </div>
+        <div class="search-button-container">
+          <i class="material-icons search">search</i>
+        </div>
+      </div>
 
-            <div class="links-container">
-              <p>Ofertas del Día</p>
-              <p>Servicio al Cliente</p>
-              <p>Listas</p>
-              <p>Tarjeta de Regalo</p>
-              <p>Vender</p>
-            </div>
+      <div class="navbar-right">
+        <div class="flag-container">
+          <div class="flag-img-container">
+            <img class="flag-img" src="assets/flag.png" alt="country-flag" />
           </div>
-        <div class="health-container"><p>Repuesta ante COVID-19</p></div>
-  </div>
+          <i class="dropdown-flag-icon material-icons arrow_drop_down">arrow_drop_down</i>
+        </div>
+
+        <div class="sign-in-container">
+          <div class="text-sign-in">
+            <p class="sign-in-text-top">Hello, Sign In</p>
+            <p class="sign-in-text-botton">Account & Lists</p>
+          </div>
+
+          <i class="dropdown-sign-in-icon material-icons arrow_drop_down">arrow_drop_down</i>
+        </div>
+
+        <div class="history-container">
+          <p class="history-text-top">Return</p>
+          <p class="history-text-bottom">& Orders</p>
+        </div>
+
+        <div class="cart-container">
+          <i class="cart-icon material-icons shopping_cart">shopping_cart</i>
+          <div class="cart-text-container">
+            <p class="cart-text">Cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-secundario">
+      <div class="separacion">
+        <div class="todo-all-container">
+          <div class="hamburger-menu-container">
+            <i class="hamburger-menu-icon material-icons menu">menu</i>
+          </div>
+          <div class="todo-text-container">
+            <p class="todo-text">Todo</p>
+          </div>
+        </div>
+
+        <div class="links-container">
+          <p>Ofertas del Día</p>
+          <p>Servicio al Cliente</p>
+          <p>Listas</p>
+          <p>Tarjeta de Regalo</p>
+          <p>Vender</p>
+        </div>
+      </div>
+      <div class="health-container">
+        <p>Repuesta ante COVID-19</p>
+      </div>
+    </div>
 
     <main class="main-container">
-      <div class="banner-container">
-        <a href="#">left</a>
-        <div>Img banner</div>
-        <a href="#">right</a>
-      </div>
-      <div class="categories-container">
-        <div class="card-category-container">
-          <div>Titulo</div>
-          <div>Img</div>
-          <div>Link</div>
+      <div class="main-content">
+
+
+        <div class="banner-container">
+          <div class="chrismas-img-container">
+            <img class="chrismas-img" src="assets/fondo_benner.jpg" alt="navidad-pic">
+          </div>
+
+          <div class="arrow-container">
+
+
+            <div class="arrow-container-left">
+              <i class="material-icons arrow-icon-left arrow_back_ios">
+                arrow_back_ios
+              </i>
+            </div>
+  
+            <div class="arrow-container-right">
+              <i class="material-icons arrow-icon-right arrow_forward_ios">
+                arrow_forward_ios
+              </i>
+            </div>
+  
+          </div>
         </div>
+       
+
+
+        <div class="categories-container">
+          <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div>
+          <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div> <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div> <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div> <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div> <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div> <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div> <div class="card-category-container">
+            <div class="card-category-background">
+              <div><h2>Electrónica</h2></div>
+              <div><img class="card-img" src="assets/card-img.jpg" alt="electronica"></div>
+              <div><p>Comprar Ahora</p></div>
+            </div>
+          </div>
+        
+        </div>
+
       </div>
+
+
+
+      
+
     </main>
-  </body>
+
+
+
+</body>
+
 </html>
