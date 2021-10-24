@@ -479,8 +479,130 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+  font-size: 13px;
 }
 
 .links-container-footer > p {
   margin-top: 4px;
+}
+
+/*---second footer-----*/
+
+.second-footer-container {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #37475a;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-logo-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 200px;
+  padding: 10px;
+}
+
+.footer-img {
+  height: 100%;
+  width: 100%;
+}
+
+.links-buttoms-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.lenguaje-buttom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.leanguage-icon {
+  margin-right: 10px;
+}
+
+.up-and-down-arrows-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.arrow-icon {
+  font-size: 12px;
+}
+
+.exchange-buttom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.country-buttom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer-flag-img-container {
+  width: 24px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.footer-flag-img {
+  width: 100%;
+  height: 100%;
+}
+
+/*---footer legales---*/
+
+.services-footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #232f3e;
+  color: #fff;
+}
+
+.calc {
+  display: flex;
+}
+
+.card-legales-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.card-legal-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 13px;
+  margin: 2px 0;
 }
