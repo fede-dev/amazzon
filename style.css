@@ -589,8 +589,8 @@
 
 .card-legales-item {
   /* width: 30%; */
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding: 20px 10px;
   width: calc(100% / 6);
 }
@@ -602,4 +602,20 @@
   align-items: start;
   font-size: 13px;
   margin: 2px 0;
+}
+
+/*--condition footer---*/
+
+.conditions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #37475a;
+  color: #fff;
+}
+
+.conditions-container > * {
+  margin: 0 20px;
 }
